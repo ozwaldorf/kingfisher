@@ -4,5 +4,5 @@ Encoding=UTF-8
 Name=Wallpaper
 Comment=Generates a beautiful Budgie background
 Exec=!!LOCATION!!/wallpaper.sh
-Icon=!!LOCATION!!/Logo.svg
+Icon=!!LOCATION!!/assets/Logo.svg
 Terminal=False
