@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Wallpaper
+Comment=Generates a beautiful Budgie background
+Exec=./Wallpaper/wallpaper.sh
+Icon=
+Terminal=False
