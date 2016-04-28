@@ -20,13 +20,7 @@ done
 processed_folder=$(echo $folder | sed -e 's/[\/&]/\\&/g')
 sed -i 's/!!LOCATION!!/'$processed_folder'/' "$folder/Wallpaper.desktop"
 
-sed -i 's/!!LOCATION!!/'$processed_folder'/' "$folder/Wallpaper2.desktop"
-
 cp "$folder/Wallpaper.desktop" ~/.config/autostart/Wallpaper.desktop
 
-rm "$folder/Wallpaper.desktop"
-
-mv "$folder/Wallpaper2.desktop" "$folder/Wallpaper.desktop"
-
 echo "Installation complete!"
-#rm install.sh
+rm install.sh
